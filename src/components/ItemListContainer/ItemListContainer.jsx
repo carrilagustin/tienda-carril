@@ -1,4 +1,5 @@
 import React from 'react'
+import ItemCount from '../ItemCount/ItemCount'
 import './ItemListContainer.css'
 
 
@@ -13,6 +14,7 @@ function ItemListContainer(props) {
                         <p className="card-text">{props.textExample}</p>
                         
                     </div>
+                    <ItemCount stock="5" initial="1"/>
             </div>   
         </div>
         </>
